@@ -1,0 +1,28 @@
+uuid: 5581fb32-5d40-4ec7-9b64-7ea4ee428acb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.paper.body
+    - node.type.paper
+  module:
+    - text
+    - user
+id: node.paper.default
+targetEntityType: node
+bundle: paper
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

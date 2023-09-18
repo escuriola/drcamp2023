@@ -1,0 +1,14 @@
+uuid: 8f4b2c8f-f5f5-4b63-b3d9-146318b0689f
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: koDWfeWeX_TYFqqcvUQxyJXjHk2lvOclAc_Pi3WBjNo
+id: api
+label: API
+weight: 5
+is_admin: null
+permissions:
+  - 'view all revisions'

@@ -1,0 +1,19 @@
+uuid: bc47cc4a-37f1-45dc-947d-e673e2270e1c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_speaker_drupal_username
+    - node.type.speaker
+id: node.speaker.field_speaker_drupal_username
+field_name: field_speaker_drupal_username
+entity_type: node
+bundle: speaker
+label: 'Drupal UserName'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

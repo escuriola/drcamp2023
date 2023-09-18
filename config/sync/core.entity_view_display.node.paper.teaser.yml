@@ -1,0 +1,30 @@
+uuid: 5f75aae9-4aa8-4c3a-9f46-f1380f8ec7f1
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.paper.body
+    - node.type.paper
+  module:
+    - text
+    - user
+id: node.paper.teaser
+targetEntityType: node
+bundle: paper
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

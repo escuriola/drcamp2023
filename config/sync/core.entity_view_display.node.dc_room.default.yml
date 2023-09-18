@@ -1,0 +1,19 @@
+uuid: 50c174dc-b01a-4ddc-bfcc-4540120ecb4f
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.dc_room
+  module:
+    - user
+id: node.dc_room.default
+targetEntityType: node
+bundle: dc_room
+mode: default
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

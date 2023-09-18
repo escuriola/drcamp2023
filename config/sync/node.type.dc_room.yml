@@ -1,0 +1,17 @@
+uuid: da7dadc2-0e6a-4ba4-a631-9ea2f6d2eb08
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Room
+type: dc_room
+description: ''
+help: ''
+new_revision: false
+preview_mode: 0
+display_submitted: false

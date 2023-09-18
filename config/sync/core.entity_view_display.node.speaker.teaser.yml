@@ -1,0 +1,38 @@
+uuid: ff03a361-4596-48c8-a134-3d64477db939
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.speaker.body
+    - field.field.node.speaker.field_speaker_drupal_username
+    - field.field.node.speaker.field_speaker_email
+    - field.field.node.speaker.field_speaker_last_name
+    - field.field.node.speaker.field_speaker_name
+    - node.type.speaker
+  module:
+    - text
+    - user
+id: node.speaker.teaser
+targetEntityType: node
+bundle: speaker
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_speaker_drupal_username: true
+  field_speaker_email: true
+  field_speaker_last_name: true
+  field_speaker_name: true

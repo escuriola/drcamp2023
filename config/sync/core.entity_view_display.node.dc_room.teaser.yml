@@ -1,0 +1,20 @@
+uuid: 0348e971-b8b1-46e8-888a-8dc70cf1afe2
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.dc_room
+  module:
+    - user
+id: node.dc_room.teaser
+targetEntityType: node
+bundle: dc_room
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }
